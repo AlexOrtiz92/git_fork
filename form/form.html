@@ -16,12 +16,13 @@
 
 <main>
     <form action="https://www.example.com">
-
+        <fieldset>
+            <legend>Datos personales</legend>
         <div>
             <label for="Nombre">Nombre: </label>
-            <input type="text" name="Nombre">
+            <input type="text" name="Nombre" required>
             <label for="Apellidos">Apellidos: </label>
-            <input type="text" name="Apellidos">
+            <input type="text" name="Apellidos" required>
         </div>
 
         <br>
@@ -135,9 +136,10 @@
                 <option value="">99</option>
             </select>
         </div>
-
+    </fieldset>
         <br>
-
+        <fieldset>
+            <legend>Preferencias</legend>
         <div>
             <p id="pregunta"> ¿Deseas recibir mas informacion?</p>
 
@@ -177,8 +179,9 @@
                     Dolares
                 </label>
             </p>
-
+            
         </div>
+        </fieldset>
         <br>
         <div>
             <label for="comentario" class="comentario">Deja tu comentario</label>

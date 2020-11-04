@@ -4,4 +4,11 @@ body{
 .comentario{
     font-weight: bold
 }
+textarea{
+    resize: none;
+    width: 525px;
+}
 
+fieldset{
+    width: 500px;
+}
